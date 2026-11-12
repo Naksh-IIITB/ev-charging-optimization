@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#122B39"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#49D6A4"/>
+      <stop offset="1" stop-color="#33A7D8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#background)"/>
+  <circle cx="1050" cy="90" r="165" fill="#33A7D8" fill-opacity=".08"/>
+  <circle cx="117" cy="401" r="190" fill="#49D6A4" fill-opacity=".07"/>
+  <text x="64" y="80" fill="#8CE8C7" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">SMART CHARGING / MILP SCHEDULING</text>
+  <text x="64" y="139" fill="#F4F8FB" font-family="Inter,Arial,sans-serif" font-size="38" font-weight="750">Make every kilowatt count.</text>
+  <text x="64" y="176" fill="#B7C7D2" font-family="Inter,Arial,sans-serif" font-size="17">Coordinate EV demand around price, ports, grid limits, and solar.</text>
+  <rect x="64" y="222" width="282" height="136" rx="16" fill="#142334" stroke="#284252"/>
+  <text x="84" y="253" fill="#DCE8EE" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700">OPTIMIZATION INPUTS</text>
+  <text x="84" y="285" fill="#AFC0CC" font-family="Inter,Arial,sans-serif" font-size="14">Vehicles · deadlines · energy need</text>
+  <text x="84" y="311" fill="#AFC0CC" font-family="Inter,Arial,sans-serif" font-size="14">Tariff · charger ports · grid limit</text>
+  <text x="84" y="337" fill="#AFC0CC" font-family="Inter,Arial,sans-serif" font-size="14">Solar profile · peak penalty</text>
+  <path d="M365 290h44" stroke="#49D6A4" stroke-width="2" stroke-linecap="round"/>
+  <path d="m402 283 8 7-8 7" stroke="#49D6A4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="426" y="222" width="302" height="136" rx="16" fill="#142334" stroke="#284252"/>
+  <text x="446" y="253" fill="#DCE8EE" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700">MILP SCHEDULER</text>
+  <text x="446" y="286" fill="#AFC0CC" font-family="Inter,Arial,sans-serif" font-size="14">Assign charging power by time slot</text>
+  <text x="446" y="312" fill="#AFC0CC" font-family="Inter,Arial,sans-serif" font-size="14">Meet energy needs before departure</text>
+  <text x="446" y="338" fill="#AFC0CC" font-family="Inter,Arial,sans-serif" font-size="14">Trade cost against peak demand</text>
+  <path d="M747 290h44" stroke="#49D6A4" stroke-width="2" stroke-linecap="round"/>
+  <path d="m784 283 8 7-8 7" stroke="#49D6A4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="808" y="222" width="328" height="136" rx="16" fill="#142334" stroke="#284252"/>
+  <text x="828" y="253" fill="#DCE8EE" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700">COMPARE &amp; EXPLORE</text>
+  <text x="828" y="286" fill="#AFC0CC" font-family="Inter,Arial,sans-serif" font-size="14">Schedule, cost, and grid-load views</text>
+  <text x="828" y="312" fill="#AFC0CC" font-family="Inter,Arial,sans-serif" font-size="14">FCFS and uncontrolled baselines</text>
+  <text x="828" y="338" fill="#AFC0CC" font-family="Inter,Arial,sans-serif" font-size="14">Sensitivity sweep and report export</text>
+  <path d="M856 196h228" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <rect x="64" y="196" width="115" height="4" rx="2" fill="#49D6A4"/>
+  <rect x="190" y="196" width="112" height="4" rx="2" fill="#33A7D8"/>
+</svg>
